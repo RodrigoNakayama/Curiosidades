@@ -98,9 +98,16 @@ nav a{
     text-align: center;
     padding: center;
 }
+
 main{
     max-width: 1000px;
     padding: 1rem;
     margin: 2rem auto auto auto;
 }
 
+.section-video{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
