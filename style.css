@@ -111,8 +111,12 @@ main{
     margin-right: auto;
 }
 
-.galeria{
+.img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.galeria p{
+    font-weight: bold;
 }
