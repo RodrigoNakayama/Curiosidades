@@ -105,13 +105,22 @@ main{
     margin: 2rem auto auto auto;
 }
 
-.vidio{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+.video-section{
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+      padding-top: 25px;
+      height: 0;
+      margin: 0 auto;
+      max-width: 800px;
+    }
 
-.section-video p{
+.video-section iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+.vidio p{
     font-weight: bold;
 }
