@@ -111,12 +111,7 @@ main{
     margin-right: auto;
 }
 
-.img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.galeria p{
+.center p{
     font-weight: bold;
 }
