@@ -77,7 +77,7 @@ nav {
 
 nav a{
     color: #fff;
-    text-decoration: none;
+    text-decoration: none;width:"415px"; height:"380px";
     font-weight: bold;
 }
 .hero{
