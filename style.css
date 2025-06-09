@@ -27,7 +27,7 @@ main {
     margin-bottom: 2rem;
 }
 
-.curiosidades {
+.curiosidade {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
