@@ -79,7 +79,7 @@ main {
 }
 table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: none;
 }
   th, td {
     border: 2px solid white;
