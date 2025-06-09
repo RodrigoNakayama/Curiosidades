@@ -1,0 +1,69 @@
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #333;
+    padding: 0.5rem 0;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+@media (max-width: 600px){
+    header h1{
+        font-size: 1.5rem;
+    }
+
+    .curiosidades-card {
+        width: 90%;
+    }
+}
+.hero{
+    background-color: url('planeta-terra_585359906.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.hero h2{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: center;
+}
