@@ -82,7 +82,6 @@ table {
     border-collapse: none;
 }
   th, td {
-    border: 2px solid white;
     padding: 8px;
     text-align: center;
   }
